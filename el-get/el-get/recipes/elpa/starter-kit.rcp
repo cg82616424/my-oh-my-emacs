@@ -1,0 +1,7 @@
+(:name starter-kit
+:auto-generated t
+:type elpa
+:description "Saner defaults and goodies."
+:repo nil
+:depends (paredit idle-highlight-mode find-file-in-project smex ido-ubiquitous magit)
+)

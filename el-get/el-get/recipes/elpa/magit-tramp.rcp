@@ -1,0 +1,7 @@
+(:name magit-tramp
+:auto-generated t
+:type elpa
+:description "git method for TRAMP"
+:repo nil
+:depends (magit)
+)

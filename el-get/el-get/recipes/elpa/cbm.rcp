@@ -1,0 +1,6 @@
+(:name cbm
+:auto-generated t
+:type elpa
+:description "Cycle through buffers with the same `major-mode'."
+:repo nil
+)

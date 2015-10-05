@@ -1,0 +1,7 @@
+(:name ghci-completion
+:auto-generated t
+:type elpa
+:description "Completion for GHCi commands in inferior-haskell buffers"
+:repo nil
+:minimum-emacs-version (24 1)
+)

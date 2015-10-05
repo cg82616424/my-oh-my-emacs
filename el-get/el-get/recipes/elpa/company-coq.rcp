@@ -1,0 +1,7 @@
+(:name company-coq
+:auto-generated t
+:type elpa
+:description "Company-mode backend for Proof General's coq-mode"
+:repo nil
+:depends (company-math company yasnippet dash cl-lib)
+)

@@ -1,0 +1,7 @@
+(:name org-projectile
+:auto-generated t
+:type elpa
+:description "Repository todo management for org-mode"
+:repo nil
+:depends (projectile dash)
+)

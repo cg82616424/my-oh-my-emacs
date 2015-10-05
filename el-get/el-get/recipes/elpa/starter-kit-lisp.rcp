@@ -1,0 +1,7 @@
+(:name starter-kit-lisp
+:auto-generated t
+:type elpa
+:description "Saner defaults and goodies for lisp languages"
+:repo nil
+:depends (starter-kit elisp-slime-nav)
+)

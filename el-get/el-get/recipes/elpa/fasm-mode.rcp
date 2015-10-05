@@ -1,0 +1,6 @@
+(:name fasm-mode
+:auto-generated t
+:type elpa
+:description "Fasm major mode"
+:repo nil
+)

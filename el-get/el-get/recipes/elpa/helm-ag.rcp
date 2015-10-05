@@ -1,0 +1,7 @@
+(:name helm-ag
+:auto-generated t
+:type elpa
+:description "the silver searcher with helm interface"
+:repo nil
+:depends (helm cl-lib)
+)

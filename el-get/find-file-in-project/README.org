@@ -1,0 +1,64 @@
+* find-file-in-project (v3.5)
+Find files in a project quickly.
+
+This program provides a couple methods for quickly finding any file in a given project. It depends on [[http://www.gnu.org/software/findutils/][GNU find]].
+
+By default, it will *automatically* search file in project managed by [[http://git-scm.com/][Git]]. But you can easily switch to other types of projects.
+
+Features:
+- The only dependency is GNU find
+- Works on Windows/Cygwin/Linux/Mac
+- Furthing tweaking of GNU find through flag `ffip-find-options` is possible
+* Install
+Please install through [[http://melpa.org/#/find-file-in-project][melpa]]
+* Setup
+It works out of the box for project using Git.
+
+If you use other VCS (subversion, for example), insert below line into ~/.emacs:
+#+begin_src elisp
+(setq ffip-project-file ".svn")
+#+end_src
+* Usage
+- *`M-x find-file-in-project`* starts search immediately
+- *`M-x find-file-in-project-by-selected`* use the *selected region as keyword* to search. If no region selected, you need input the keyword
+
+* Tips
+** Search files modified in recent 5 days
+`C-u 5 M-x find-file-in-project`
+`C-u 5 M-x find-file-in-project-by-selected`
+** APIs
+- "ffip-get-project-root-directory" return the full path of current project
+** Per project setup
+#+begin_src elisp
+;; if the full path of current file is under SUBPROJECT1 or SUBPROJECT2
+;; OR if I'm reading my personal issue track document,
+(when (ffip-current-full-filename-match-pattern-p "\\(/SUBPROJECT1\\|/SUBPROJECT2\\|issue-track.org\\)")
+  ;; set the root directory into "~/projs/PROJECT_DIR"
+  (setq-local ffip-project-root ("~/projs/PROJECT_DIR"))
+  ;; well, I'm not interested in concatenated BIG js file or file in dist/
+  (setq-local ffip-find-options "-not -size +64k -not -iwholename '*/dist/*'")
+  ;; do NOT search files in below directories
+  (setq-local ffip-prune-patterns '(".git" ".hg" "*.svn" "node_modules" "bower_components")))
+  ;; for this project, I'm only interested certain types of files
+  (setq-local ffip-patterns '("*.html" "*.js" "*.css" "*.java" "*.xml" "*.js")))
+#+end_src
+** Specify root directory on Cygwin&Windows
+#+begin_src elisp
+(if (eq system-type 'windows-nt)
+    (setq ffip-project-root "C:/Users/myname/projs/myproj1")
+  (setq ffip-project-root "~/projs/myprojs1"))
+#+end_src
+** Performance
+This program is tested with 50,000+ files (Linux Kernel, for example) without any performance issue.
+
+But it could be more responsive if you follow EITHER of following suggetions:
+
+*Suggestion 1*, Install [[https://github.com/abo-abo/swiper][Swiper]] and insert below code into your ~/.emacs:
+#+begin_src elisp
+(autoload 'ivy-read "ivy")
+#+end_src
+Then Swiper's UI ivy will be used. That's all you need to do.
+
+*Suggestion 2*, If you don't like Swiper, the default [[http://emacswiki.org/emacs/InteractivelyDoThings][Ido]] will be used. It might be slow for 50K files. The issue could be easily resolved by installing [[https://github.com/lewang/flx][flx-ido]]. Flx-ido also replaces Ido's default matching algorithm with a *much better* one. So it's *highly recommended* to use it.
+* Bug Report
+Check [[https://github.com/technomancy/find-file-in-project]]

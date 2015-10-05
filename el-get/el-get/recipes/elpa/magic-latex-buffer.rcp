@@ -1,0 +1,8 @@
+(:name magic-latex-buffer
+:auto-generated t
+:type elpa
+:description "magical syntax highlighting for LaTeX-mode buffers"
+:repo nil
+:depends (cl-lib)
+:minimum-emacs-version (24 3)
+)

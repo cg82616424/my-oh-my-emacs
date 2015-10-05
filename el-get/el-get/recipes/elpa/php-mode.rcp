@@ -1,0 +1,6 @@
+(:name php-mode
+:auto-generated t
+:type elpa
+:description "Major mode for editing PHP code"
+:repo nil
+)

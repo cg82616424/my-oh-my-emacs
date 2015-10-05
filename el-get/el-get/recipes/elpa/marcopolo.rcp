@@ -1,0 +1,7 @@
+(:name marcopolo
+:auto-generated t
+:type elpa
+:description "Emacs client for Docker API"
+:repo nil
+:depends (s dash pkg-info request)
+)

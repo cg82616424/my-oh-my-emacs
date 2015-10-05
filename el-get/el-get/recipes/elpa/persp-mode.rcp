@@ -1,0 +1,6 @@
+(:name persp-mode
+:auto-generated t
+:type elpa
+:description ""perspectives" shared among frames + save/load - bugs."
+:repo nil
+)

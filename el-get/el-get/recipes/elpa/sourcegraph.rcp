@@ -1,0 +1,7 @@
+(:name sourcegraph
+:auto-generated t
+:type elpa
+:description "Minor mode for srclib"
+:repo nil
+:minimum-emacs-version (24 3)
+)

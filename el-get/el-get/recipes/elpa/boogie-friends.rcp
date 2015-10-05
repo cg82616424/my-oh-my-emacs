@@ -1,0 +1,7 @@
+(:name boogie-friends
+:auto-generated t
+:type elpa
+:description "Collection of programming modes for Boogie and one related language (Dafny)."
+:repo nil
+:depends (cl-lib dash flycheck yasnippet company)
+)

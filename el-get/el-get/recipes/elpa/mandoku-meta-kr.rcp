@@ -1,0 +1,7 @@
+(:name mandoku-meta-kr
+:auto-generated t
+:type elpa
+:description "Metadata for the KR repository to be used by Mandoku"
+:repo nil
+:depends (org mandoku)
+)

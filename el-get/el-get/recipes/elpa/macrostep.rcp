@@ -1,0 +1,6 @@
+(:name macrostep
+:auto-generated t
+:type elpa
+:description "interactive macro expander"
+:repo nil
+)

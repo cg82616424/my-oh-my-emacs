@@ -1,0 +1,8 @@
+(:name tide
+:auto-generated t
+:type elpa
+:description "Typescript Interactive Development Environment"
+:repo nil
+:depends (typescript-mode flycheck dash)
+:minimum-emacs-version (24 1)
+)

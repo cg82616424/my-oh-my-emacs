@@ -1,0 +1,7 @@
+(:name scala-outline-popup
+:auto-generated t
+:type elpa
+:description "scala file summary popup"
+:repo nil
+:depends (dash popup scala-mode2 flx-ido)
+)

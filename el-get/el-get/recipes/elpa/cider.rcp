@@ -1,0 +1,8 @@
+(:name cider
+:auto-generated t
+:type elpa
+:description "Clojure Interactive Development Environment that Rocks"
+:repo nil
+:depends (clojure-mode dash pkg-info queue spinner)
+:minimum-emacs-version (24 3)
+)

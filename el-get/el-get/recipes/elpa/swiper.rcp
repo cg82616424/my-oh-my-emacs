@@ -1,0 +1,7 @@
+(:name swiper
+:auto-generated t
+:type elpa
+:description "Isearch with an overview. Oh, man!"
+:repo nil
+:minimum-emacs-version (24 1)
+)

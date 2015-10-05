@@ -1,0 +1,8 @@
+(:name soundklaus
+:auto-generated t
+:type elpa
+:description "Play SoundCloud music in Emacs via EMMS"
+:repo nil
+:depends (dash emms deferred s pkg-info cl-lib)
+:minimum-emacs-version (24)
+)

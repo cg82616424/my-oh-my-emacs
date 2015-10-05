@@ -1,0 +1,7 @@
+(:name midje-test-mode
+:auto-generated t
+:type elpa
+:description "Minor mode for midje"
+:repo nil
+:depends (clojure-mode cider)
+)

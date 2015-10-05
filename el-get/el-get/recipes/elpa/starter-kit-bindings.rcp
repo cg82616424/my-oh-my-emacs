@@ -1,0 +1,7 @@
+(:name starter-kit-bindings
+:auto-generated t
+:type elpa
+:description "Saner defaults and goodies: bindings"
+:repo nil
+:depends (starter-kit)
+)

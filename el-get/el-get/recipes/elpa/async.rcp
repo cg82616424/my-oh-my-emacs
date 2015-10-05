@@ -1,0 +1,8 @@
+(:name async
+:auto-generated t
+:type elpa
+:description "Asynchronous processing in Emacs"
+:repo nil
+:depends (cl-lib)
+:minimum-emacs-version (24)
+)

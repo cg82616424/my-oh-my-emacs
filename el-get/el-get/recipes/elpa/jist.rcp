@@ -1,0 +1,8 @@
+(:name jist
+:auto-generated t
+:type elpa
+:description "Manage gists from Emacs"
+:repo nil
+:depends (cl-lib magit request pkg-info)
+:minimum-emacs-version (24)
+)

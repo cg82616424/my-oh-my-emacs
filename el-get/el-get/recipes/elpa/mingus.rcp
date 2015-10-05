@@ -1,0 +1,7 @@
+(:name mingus
+:auto-generated t
+:type elpa
+:description "Time-stamp: <2011-02-04 10:12:13 sharik>"
+:repo nil
+:depends (libmpdee)
+)

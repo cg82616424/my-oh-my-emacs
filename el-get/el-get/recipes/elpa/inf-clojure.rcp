@@ -1,0 +1,8 @@
+(:name inf-clojure
+:auto-generated t
+:type elpa
+:description "an inferior-clojure mode"
+:repo nil
+:depends (clojure-mode)
+:minimum-emacs-version (24 1)
+)

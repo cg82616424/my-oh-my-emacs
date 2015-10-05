@@ -1,0 +1,7 @@
+(:name evil-jumper
+:auto-generated t
+:type elpa
+:description "Jump like vimmers do!"
+:repo nil
+:depends (evil)
+)

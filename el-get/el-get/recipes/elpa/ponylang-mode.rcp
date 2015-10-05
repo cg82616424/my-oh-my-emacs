@@ -1,0 +1,7 @@
+(:name ponylang-mode
+:auto-generated t
+:type elpa
+:description "Language mode for Pony"
+:repo nil
+:depends (dash)
+)

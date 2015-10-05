@@ -1,0 +1,6 @@
+(:name zerodark-theme
+:auto-generated t
+:type elpa
+:description "A dark, medium contrast theme for Emacs"
+:repo nil
+)

@@ -1,0 +1,6 @@
+(:name tao-theme
+:auto-generated t
+:type elpa
+:description "Tao, light & dark themes for Emacs with greyscale palettes generated from the golden mean."
+:repo nil
+)
