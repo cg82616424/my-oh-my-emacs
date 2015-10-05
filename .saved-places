@@ -1,0 +1,10 @@
+;;; -*- coding: utf-8 -*-
+(("/home/virgil/.emacs.d/README.org" . 13192)
+ ("/home/virgil/.emacs.d/.recentf" . 1587)
+ ("/home/virgil/testproj/"
+  (dired-filename . "/home/virgil/testproj/run.py"))
+ ("/home/virgil/testproj/run.py" . 232)
+ ("/home/virgil/.emacs.d/el-get/.loaddefs.el" . 193767)
+ ("/home/virgil/.emacs.d/elpa/rainbow-mode-0.11/rainbow-mode-autoloads.el" . 483)
+ ("/home/virgil/.emacs.d/el-get/org-mode/lisp/org-loaddefs.el" . 103450)
+ ("/home/virgil/.emacs.d/el-get/org-mode/contrib/lisp/org-loaddefs.el" . 2130))
