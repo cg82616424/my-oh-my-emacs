@@ -176,6 +176,7 @@ auto-fill."
 ;; (ome-load "modules/ome-experimental.org" "smooth-scrolling" "sublimity")
 (ome-load "modules/ome-haskell.org")
 (ome-load "modules/ome-sml.org")
+(ome-load "modules/ome-php.org")
 
 (setq custom-file (expand-file-name "custom.el" ome-dir))
 (load custom-file 'noerror)
